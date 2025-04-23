@@ -48,7 +48,23 @@ Python Notebook to repkicate the paper results (using PyTorch, torchvision, rips
 *(Note: Achieving results identical to the paper may require matching the exact training procedure, hyperparameters, and potentially using GPU acceleration for large bootstrap iteration counts.)*
 
 ---
+## Topological Analysis Results for MNIST (H0 Lifetimes)
 
+Here are the distributions of the average and maximum lifetimes for the 0th homology group (H0, representing connected components) calculated from bootstrapped subsamples of MNIST embeddings.
+
+**Average H0 Lifetime Distribution:**
+
+![Distribution of Average H0 Lifetime for MNIST Embeddings](plots/MNIST_avg_lifetime_h0.png)
+*Caption: This plot shows the distribution of the average lifetime of H0 features across different subsamples for In-Distribution (Train/Test) and Out-of-Distribution MNIST-like data.*
+
+**Maximum H0 Lifetime Distribution:**
+
+![Distribution of Maximum H0 Lifetime for MNIST Embeddings](plots/MNIST_max_lifetime_h0.png)
+*Caption: This plot shows the distribution of the maximum lifetime of H0 features across different subsamples for In-Distribution (Train/Test) and Out-of-Distribution MNIST-like data.*
+
+---
+
+---
 ## Citation
 
 **BibTeX:**
